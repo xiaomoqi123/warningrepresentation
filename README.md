@@ -5,6 +5,7 @@ Static Analysis Tools (SATs) have already become a necessity in modern software 
 # Dataset
 
 When decompressing "Dataset.zip", you can see five folders, where each fold is corresponding to a project. In each project, there are several releases. Each release has five files ".pkl", which is corresponding to the warning representation in all warnings of the current release.
+
 <img width="168" alt="image" src="https://user-images.githubusercontent.com/18481003/204467221-7b6a69d5-2ebf-443a-bc03-72a79c84e274.png">
 + ast.pkl: the statement-level AST of the warning. Such information is used for our approach.
 + byteToken.pkl: the program slicing results of warnings, which consist of bytecode. Such information is used for SlicingLSTM.
